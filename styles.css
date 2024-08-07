@@ -1,0 +1,163 @@
+
+@font-face {
+    font-family: 'Norse-Bold';
+    src:url(images/Norse-Bold.otf) format('opentype');
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.main {
+    display: flex;
+    width: 100vw;
+    height: 100vw;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    background-image: url(images/photo-1585202900225-6d3ac20a6962.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 35vw;
+    color: white;
+}
+
+.for-footer {
+    height: 60vh;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    width: 100%;
+}
+
+.for-logo {
+    height: 40vh;
+    display: flex;
+    align-items: flex-end;
+}
+
+h1 {
+    font-size: 100px;
+}
+
+.semi-transparent {
+    display: flex;
+    font-family: 'Norse-Bold';
+    font-weight: bold;
+    width: 100%;
+    height: 180px;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0,0,0, 0.6);
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    background-color: #fafafa;
+    width: 65vw;
+    margin-left: 3em;
+}
+
+.first {
+    height: 33vh;
+    display: flex;
+    justify-content: start;
+    align-items: flex-end;
+    margin-bottom: 3em;
+}
+
+.second {
+    height: 33vh;
+    background-color: white;
+}
+
+.form-main {
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    gap: 70px;
+}
+
+.div-form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+input {
+    width: 240px;
+    border: 1px solid #E5E7EB;
+    height: 25px;
+    border-radius: 5px;
+}
+
+input:focus{
+    outline:none;
+    border: 1px solid blue;
+}
+
+input:invalid {
+    border: 1px solid red;
+}
+
+label {
+    text-transform: uppercase;
+    font-size: 13px;
+    color: rgb(63, 59, 59);
+}
+
+.second h3 {
+    color: rgb(45, 43, 43);
+    font-size: 1.4em;
+}
+
+#error {
+    color: red;
+    margin-top: -0.05em;
+    font-size: 0.8em;
+}
+
+.third {
+    height: 33vh;
+}
+
+.btn {
+    background-color: #596D48;
+    color: white;
+    border: none;
+    font-weight: bold;
+    border-radius: 6px;
+    font-size: 1em;
+    width: 220px;
+    height: 50px;
+    
+}
+
+.third p {
+    margin-top: 2em;
+}
+
+.third a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #596D48;
+}
+
+.hdivider {
+    margin-top: -3em;
+    margin-bottom: 2em;
+    margin-left: 0;
+}
+
+.a-footer {
+    color: white;
+}
+
+.p-footer {
+    font-size: 15px;
+}
